@@ -34,6 +34,7 @@ class TodoService:
                 break
             else:
                 print("[Exception] Invalid choice")
+                break
 
     def add(self):
         todo_title = input("Enter todo title: ")
